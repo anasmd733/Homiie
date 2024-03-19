@@ -1,0 +1,7 @@
+.totalNamesExpense{
+    border: 1px solid #487AE2;
+    display: flex;
+    justify-content: space-between;
+    padding: 13px;
+    margin-bottom: 10px;
+}

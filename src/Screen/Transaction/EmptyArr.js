@@ -1,0 +1,34 @@
+export const emptyArray = [
+    {
+        ProductId:"",
+        ProductName:"",
+        Mark:"",
+        Quantity:"",
+        Rate:"",
+        TotalAmount:""
+    },
+    {
+        ProductId:"",
+        ProductName:"",
+        Mark:"",
+        Quantity:"",
+        Rate:"",
+        TotalAmount:""
+    },
+    {
+        ProductId:"",
+        ProductName:"",
+        Mark:"",
+        Quantity:"",
+        Rate:"",
+        TotalAmount:""
+    },
+    {
+        ProductId:"",
+        ProductName:"",
+        Mark:"",
+        Quantity:"",
+        Rate:"",
+        TotalAmount:""
+    },
+]

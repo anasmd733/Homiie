@@ -1,0 +1,53 @@
+export const ExpenseDetails=[
+    {
+        SNo:"1",
+        BillNo:"1234123412",
+        SupplierName:"Vickey",
+        Date:"12/12/2024",
+        TotalAmount:"10000",
+        CashPaid:"9000"
+    },
+    {
+        SNo:"1",
+        BillNo:"1234123412",
+        SupplierName:"Vickey",
+        Date:"12/12/2024",
+        TotalAmount:"10000",
+        CashPaid:"9000"
+    },
+    {
+        SNo:"1",
+        BillNo:"1234123412",
+        SupplierName:"Vickey",
+        Date:"12/12/2024",
+        TotalAmount:"10000",
+        CashPaid:"9000"
+    },
+    
+    {
+        SNo:"1",
+        BillNo:"1234123412",
+        SupplierName:"Vickey",
+        Date:"12/12/2024",
+        TotalAmount:"10000",
+        CashPaid:"9000"
+    },
+    
+    {
+        SNo:"1",
+        BillNo:"1234123412",
+        SupplierName:"Vickey",
+        Date:"12/12/2024",
+        TotalAmount:"10000",
+        CashPaid:"9000"
+    },
+    {
+        SNo:"1",
+        BillNo:"1234123412",
+        SupplierName:"Vickey",
+        Date:"12/12/2024",
+        TotalAmount:"10000",
+        CashPaid:"9000"
+    },
+
+]

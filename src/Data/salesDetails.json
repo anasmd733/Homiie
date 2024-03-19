@@ -1,0 +1,141 @@
+{
+  "salesDetails": [
+    {
+      "id": "1",
+      "date": "20/01/2024",
+      "billNo": 12345,
+      "mode": "Credit",
+      "customerName": "Customer Name",
+      "customerId": 12345,
+      "billAmount": "1000",
+      "cashRecieved": 1000,
+      "previousBalance": 1000,
+      "Balance": 1000,
+      "remark": "abcdef"
+    },
+    {
+      "id": "1",
+      "date": "20/01/2024",
+      "billNo": 12345,
+      "mode": "Credit",
+      "customerName": "Customer Name",
+      "customerId": 12345,
+      "billAmount": "1000",
+      "cashRecieved": 1000,
+      "previousBalance": 1000,
+      "Balance": 1000,
+      "remark": "abcdef"
+    },
+    {
+      "id": "1",
+      "date": "20/01/2024",
+      "billNo": 12345,
+      "mode": "Credit",
+      "customerName": "Customer Name",
+      "customerId": 12345,
+      "billAmount": "1000",
+      "cashRecieved": 1000,
+      "previousBalance": 1000,
+      "Balance": 1000,
+      "remark": "abcdef"
+    },
+    {
+      "id": "1",
+      "date": "20/01/2024",
+      "billNo": 12345,
+      "mode": "Credit",
+      "customerName": "Customer Name",
+      "customerId": 12345,
+      "billAmount": "1000",
+      "cashRecieved": 1000,
+      "previousBalance": 1000,
+      "Balance": 1000,
+      "remark": "abcdef"
+    },
+    {
+      "id": "1",
+      "date": "20/01/2024",
+      "billNo": 12345,
+      "mode": "Credit",
+      "customerName": "Customer Name",
+      "customerId": 12345,
+      "billAmount": "1000",
+      "cashRecieved": 1000,
+      "previousBalance": 1000,
+      "Balance": 1000,
+      "remark": "abcdef"
+    },
+    {
+      "id": "1",
+      "date": "20/01/2024",
+      "billNo": 12345,
+      "mode": "Credit",
+      "customerName": "Customer Name",
+      "customerId": 12345,
+      "billAmount": "1000",
+      "cashRecieved": 1000,
+      "previousBalance": 1000,
+      "Balance": 1000,
+      "remark": "abcdef"
+    },
+    {
+      "id": "1",
+      "date": "20/01/2024",
+      "billNo": 12345,
+      "mode": "Credit",
+      "customerName": "Customer Name",
+      "customerId": 12345,
+      "billAmount": "1000",
+      "cashRecieved": 1000,
+      "previousBalance": 1000,
+      "Balance": 1000,
+      "remark": "abcdef"
+    },
+    {
+      "id": "1",
+      "date": "20/01/2024",
+      "billNo": 12345,
+      "mode": "Credit",
+      "customerName": "Customer Name",
+      "customerId": 12345,
+      "billAmount": "1000",
+      "cashRecieved": 1000,
+      "previousBalance": 1000,
+      "Balance": 1000,
+      "remark": "abcdef"
+    },
+    {
+      "id": "1",
+      "date": "20/01/2024",
+      "billNo": 12345,
+      "mode": "Credit",
+      "customerName": "Customer Name",
+      "customerId": 12345,
+      "billAmount": "1000",
+      "cashRecieved": 1000,
+      "previousBalance": 1000,
+      "Balance": 1000,
+      "remark": "abcdef"
+    },
+    {
+      "id": "1",
+      "date": "20/01/2024",
+      "billNo": 12345,
+      "mode": "Credit",
+      "customerName": "Customer Name",
+      "customerId": 12345,
+      "billAmount": "1000",
+      "cashRecieved": 1000,
+      "previousBalance": 1000,
+      "Balance": 1000,
+      "remark": "abcdef"
+    }
+  ],
+  "comments": [
+    { "id": "1", "text": "a comment about post 1", "postId": "1" },
+    { "id": "2", "text": "another comment about post 1", "postId": "1" }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

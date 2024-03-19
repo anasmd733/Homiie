@@ -1,0 +1,15 @@
+.dash-cont-card-par{
+    /* width: 100%; */
+    /* width: 330px; */
+    padding: 10px;
+    background-color: #FFFFFF;
+    border-radius: 2px;
+    min-width: 204px;
+
+}
+.dash-content-div{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}

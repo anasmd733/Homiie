@@ -1,0 +1,67 @@
+.main-div-blur-quotation {
+    position: relative;
+  }
+  
+  .main-div-blur-quotation::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(3px);
+    pointer-events: none;
+  }
+  
+  .DeletePopUp-division-Quotation {
+    opacity: 1;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+  }
+.formatDate-Main-division{
+    border-radius: 5px;
+    box-shadow: 0px 0px 2px grey;
+    padding: 15px;
+    margin-top: 15px;
+}
+.CustomerQuotationTable-Paragraph{
+    color: white;
+    border-width: 0px;
+    font-weight: lighter;
+}
+.CustomerQuotationTable-Paragraph-two{
+    color: #487AE2;
+    border-width: 0px;
+    font-weight: lighter;
+}
+.CustomerQuotationTable-Date-Name-paragraph{
+    display: flex;
+    justify-content: space-between;
+    background-color: #487AE2;
+    padding: 15px;
+}
+.CustomerQuotationTable-Date-Name-paragraph-two{
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffffff;
+    padding: 15px;
+    color: #487AE2;
+    outline: 1px solid #487AE2;
+    margin-bottom: 10px;
+}
+.CustomerQuotationTable-BelowTableButton{
+    width: 200px;
+}
+.CustomerQuotationTable-Save-Button{
+    width: 200px;
+    background-color: #68D183;
+}
+.CustomerQuotationTable-Final-division{
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+}
+.CustomerQuotationTable-Main-Division{
+    padding: 15px;
+}

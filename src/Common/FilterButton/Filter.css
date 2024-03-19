@@ -1,0 +1,44 @@
+.FilterCard-Button{
+    height: 27px;
+    margin-top: 10px;
+    width: 220px;
+}
+.FilterCard-Textbox{
+    outline: 1px solid #487AE2;
+    box-shadow: 0px 0px 0px white;
+    height: 23px;
+}
+.FilterCard-Main-div{
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px grey;
+    padding: 15px;
+    width: 250px;
+    position: absolute;
+    top: 200px;
+    background-color: white;
+}
+.FilterCard-Cross-div{
+    display: flex;
+    padding: 5px;
+    justify-content: end;
+    cursor: pointer;
+}
+.FilteredDateButton-main-division{
+    display: flex;
+    gap: 5px;
+    box-shadow: 0px 0px 5px grey;
+    width: 200px;
+}
+
+.FilteredDateButton-sub-division-one{
+    border-right: 1px solid rgb(154, 154, 154); 
+}
+.FilteredDateButton-Paragraph{
+    font-size: 13px;
+    color: gray;
+    padding: 4px;
+}
+.FilteredDateButton-sub-division-two{
+    margin-top: 1px;
+    cursor: pointer;
+}

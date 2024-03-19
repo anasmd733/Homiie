@@ -1,0 +1,1 @@
+export const belowButtonArr = ['Top','Previous','Next',"End",'Locate','Add','Edit','Delete','View','Exit']

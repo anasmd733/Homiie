@@ -1,0 +1,40 @@
+.pop-up-parent{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    backdrop-filter: blur(5px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.success-pop-msg{
+    margin: 0px;
+}
+.done-btn-pop-up{
+    background-color: #68D183;
+}
+.failed-btn-pop-up{
+    background-color: rgb(244, 48, 48);
+}
+.done-btn-pop-up,.failed-btn-pop-up{
+    border-width: 0px;
+    padding: 5px 20px;
+    color: white;
+    border-radius: 3px;
+}
+.done-btn-pop-up:hover{
+    background-color: #68d182b7;
+}
+.done-btn-pop-up:active{
+    background-color: #68D183;
+}
+.failed-btn-pop-up:hover{
+    background-color: rgba(244, 48, 48, 0.785);
+}
+.failed-btn-pop-up:active{
+    background-color: rgb(244, 48, 48);
+}
+.pop-up-align{
+    width: 50%;
+    height: 50%;
+}

@@ -1,0 +1,83 @@
+
+.ProductDeteilCard-main-div{
+    width: 235px;
+    height: 230px;
+    padding-top: 200px;
+    overflow-y: hidden;
+    transition-duration: 0.5s;
+}
+.ProductDeteilCard-hover-div{
+    background-color: rgb(250, 250, 250);
+    height: 230px;
+}
+.ProductDeteilCard-vegitable-name{
+    color: grey;
+    font-weight: lighter;
+}
+.ProductDeteilCard-vegitable-name-hoverd{
+    color: grey;
+    font-weight: lighter;
+}
+.ProductDeteilCard-vegitable-name-div{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    padding-left: 85px;
+}
+.ProductDeteilCard-main-div-hovered{
+    width: 235px;
+    height: 230px;
+    overflow-y: hidden;
+    transition-duration: 0.5s;
+    padding-top: 0px;
+    box-shadow: 0px 0px 5px #68D183;
+}
+
+.Deteils-main-div{
+    background-color: #EAC96B;
+    height: 40px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 6px 0px 7px 0px;
+}
+.Deteils-kg-textbox{
+    background-color: #EAC96B;
+    border-width: 0px;
+    height: auto;
+    width: 30px;
+    color: rgb(78, 77, 77);
+    font-size: 13px;
+    
+}
+.Deteils-kg-textbox:focus{
+    outline: 0px solid #EAC96B;
+}
+.Deteils-kg-textbox:hover{
+    outline: 0px solid #EAC96B;
+}
+.ProductDeteilCard-Array-div{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0px;
+}
+.Deteils-stock{
+    color: rgb(78, 77, 77);
+    font-size: 13px;
+}
+.Deteils-unit{
+    color: rgb(78, 77, 77);
+    font-size: 13px;
+}
+.ProductDeteilCard-OptionButton-icon-div{
+   margin-left: 50px;
+}
+.ProductDeteilCard-OptionButton-icon{
+    
+    height: 20px;
+    width: 20px;
+}

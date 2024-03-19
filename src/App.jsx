@@ -9,6 +9,7 @@
   function App() {
     const [PeriodicStatementvalue, setPeriodicStatementValue] = useState(null);
     const [Quotation, setQuotation] = useState(null);
+    console.log("okkk");
 
     return (
       <MyContext.Provider value={{ PeriodicStatementvalue, Quotation, setQuotation, setPeriodicStatementValue }}>

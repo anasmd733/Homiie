@@ -1,0 +1,40 @@
+{
+  "CustomerDetails": [
+    {
+      "id": "2",
+      "Name": "Fayas",
+      "Profile": "img1",
+      "Age": 211,
+      "Gender": "Male",
+      "JoiningDate": "09/10/2024",
+      "City": "Kumbakonam",
+      "Contact": 7339199224,
+      "Duration": "6months",
+      "Type": "Personal Trainer"
+    },
+    {
+      "id": "3",
+      "Name": "Fayas1",
+      "Profile": "img1",
+      "Age": 211,
+      "Gender": "Male",
+      "JoiningDate": "09/10/2024",
+      "City": "Kumbakonam",
+      "Contact": 7339199224,
+      "Duration": "6months",
+      "Type": "Personal Trainer"
+    },
+    {
+      "id": "4",
+      "Name": "Faya2s",
+      "Profile": "img1",
+      "Age": 21,
+      "Gender": "Male",
+      "JoiningDate": "09/10/2024",
+      "City": "Kumbakonam",
+      "Contact": 7339199224,
+      "Duration": "6months",
+      "Type": "Trainer"
+    }
+  ]
+}

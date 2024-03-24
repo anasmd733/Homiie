@@ -1,0 +1,44 @@
+.dashboard-item {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 20px;
+    transition: all 0.3s ease;
+    width: 300px;
+  }
+  
+  .dashboard-item:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .icon {
+    flex: 0 0 auto;
+    margin-right: 20px;
+  }
+  
+  .icon svg {
+    width: 40px;
+    height: 40px;
+    color: #1d82e7; 
+    }
+  
+  .info h3 {
+    margin: 0;
+    font-size: 20px;
+    color: #333333;
+  }
+  
+  .info p {
+    margin: 5px 0 0 0;
+    font-size: 18px;
+    color: #666666;
+  }
+  @media only screen and (max-width: 500px) {
+    .dashboard-item{
+        width: 100%;
+        max-width: 600px;
+    }
+  }

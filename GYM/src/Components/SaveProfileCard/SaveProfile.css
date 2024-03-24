@@ -1,0 +1,148 @@
+.EditprofileCon{
+    background-color:#f4f4f4;
+    height: 73vh;
+    width: 90vh;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.FullEditProfile{
+    height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #D3D3D3;
+}
+
+.TopContnt{
+    display: flex;
+    justify-content: space-between;
+}
+
+.TopContnt .viewpfle{
+    font-size: small;
+}
+
+.ProfilePic{
+    background-color: #000000;
+    width: 25%;
+    border-radius: 50%;
+    height: 30%;
+    margin-left: 33vh;
+}
+
+.ProfileName{
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: center;
+    padding: 14px;
+}
+
+.ProfileName .Name{
+    font-size: large;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.mainInput{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    color: #6b6969;
+    /* border: 1px solid; */
+}
+
+.Inputcnt{
+    border: none;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background: none;
+    width: 20vh;
+    border-left: 1px solid #D3D3D3;
+    color: #6b6969;
+
+}
+
+.Inputcnt2{
+    border: none;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background: none;
+    width: 20vh;
+    border-left: 1px solid #D3D3D3;
+}
+
+.mainPara{
+    display: flex;
+    justify-content: space-between;
+    /* padding: 10px; */
+    width: 100%;
+    /* border: 1px solid; */
+}
+
+.paraInner{
+    border: 1px solid #D3D3D3;
+    padding: 10px;
+    width: 15vh;
+    border-radius: 9px;
+}
+
+.ParaCnt{
+   font-size: small;
+   height: 25px;
+   /* padding: 5px; */
+   display: flex;
+   align-items: center;
+   text-align: center;
+   justify-content: center;
+   color: #6b6969;
+}
+
+.ParaCnt1{
+    font-size: small;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+ }
+
+.BottomPara{
+    /* border: 1px solid; */
+    height: 150px;
+    display: flex;
+    align-items: center;
+}
+
+.edit-save-btn{
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+  
+}
+
+.EditBtn{
+    width: 93px;
+    height: 33px;
+    padding: 4px;
+    color: #6b6969;
+    font-size: small;
+    border-radius: 5px;
+    border: none;
+    border: 1px solid #D3D3D3;
+
+}
+
+.SaveBtn{
+    width: 93px;
+    height: 33px;
+    padding: 4px;
+    color:#FFFFFF;
+    font-size: small;
+    background: #000000;
+    border-radius: 5px;
+    border: none;
+}
+

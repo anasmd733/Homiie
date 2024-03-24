@@ -1,0 +1,111 @@
+  .dashboard {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 90vh;
+    justify-content: space-between;
+    background: #E01936;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    position: fixed;
+    border-radius: 5px;
+    margin-top: 10vh;
+  }
+
+  .dashboardContant,
+  .Top-con,
+  .bottom-con {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .dashboardContant {
+    height: 50%;
+  }
+
+  .Top-con {
+    justify-content: space-around;
+  }
+
+  .bottom-con {
+    height: 110px;
+    justify-content: space-around;
+  }
+
+  .btn {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    color: #ecf0f1;
+    transition: background-color 0.3s, color 0.3s;
+    font-size: 16px;
+  }
+
+  .btn:hover,
+  .btn:focus {
+    background: #fff;
+    color: #000000;
+  }
+
+  .logo-style {
+    font-size: 20px;
+  }
+
+  .toggle-button {
+    display: none;
+    border: none;
+    background: transparent;
+    position: absolute;
+    font-size: 20px;
+    left: 5px;
+    position: fixed;
+    z-index: 3;
+    color: #000000;
+    margin-top: 5vh;
+  }
+
+  .dash-display {
+    display: block;
+  }
+
+  @media screen and (max-width: 985px) {
+    .dashboard {
+      height: 100%;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .dashboard {
+      display: none;
+    }
+    .dash-display {
+      display: none;
+    }
+
+    .dashboard-show {
+      display: block;
+      display: flex;
+      flex-direction: column;
+      width: 200px;
+      height: auto;
+      justify-content: space-between;
+      position: fixed;
+      height: 93vh;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+      background: #E01936;
+      padding-top: 10vh;
+      z-index: 2;
+    }
+
+    .dashboard-show.transformed {
+      transform: translateX(-200px);
+    }
+
+    .toggle-button {
+      display: block;
+    }
+  }

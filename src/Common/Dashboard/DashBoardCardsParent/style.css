@@ -1,8 +1,0 @@
-.dashboard-card-parent{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
-    align-items: center;
-    padding: 10px 0px;
-}

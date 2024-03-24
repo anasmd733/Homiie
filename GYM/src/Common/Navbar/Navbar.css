@@ -1,0 +1,39 @@
+nav{
+    background-color: #ffffff00;
+    padding:3vh 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    z-index: 1;
+    position: fixed;
+    width: 100%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.navlinks{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 10px;
+}
+.NavId{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+}
+.BkCircle{
+    background-color: #2e2d2d;
+    width: 30px;
+    border-radius: 50%;
+    height: 30px;
+}
+@media (max-width: 768px) {
+   nav{
+    flex-direction: column;
+    position: fixed;
+    width: 100%;
+   }
+   .navlinks{
+    margin-top: 10px;
+   }
+  }

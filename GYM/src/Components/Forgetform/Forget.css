@@ -1,0 +1,128 @@
+.ForgetContainer {
+    background: url(../../asset/LoginBg.jpg);
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+
+.ForgetHead {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ForgetHead .Head {
+    border-left: 1px solid;
+    width: 100px;
+    text-align: start;
+    padding: 10px 20px;
+}
+
+.ForgetInner {
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ForgetCon {
+    background: #fff;
+    height: 50vh;
+    width: 350px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.ForgetConn{
+    padding-top: 30px;
+    gap: 10px;
+    /* border: 1px solid; */
+}
+
+.Blackdp {
+    background-color: #000000;
+    width: 40px;
+    border-radius: 50%;
+    height: 40px;
+    margin-right: 20px;
+}
+
+.Forgetpass{
+    font-size: larger;
+}
+
+.ForgetCon{
+    padding: 10px;
+}
+
+.Forget{
+    padding: 10px;
+}
+
+.forget-otp{
+    color: #e01936;
+    padding: 7px;
+    font-size: small;
+}
+
+.ForgetInput {
+    /* border: 1px solid; */
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+ }
+
+.ForgetInput .inp {
+    width: 280px;
+    height: 35px;
+    background-color: #f4f4f4;
+    border: none;
+    outline: #999898;
+    border-radius: 5px;
+    padding-left: 40px;
+    /* position: relative; */
+}
+  
+.EmailLogo {
+    position: absolute;
+    left: 30px;
+    top: 38%;
+    font-size: 18px;
+    color: #999898;
+}
+
+.ForgetBtn{
+    padding: 16px;
+}
+
+.ForgetButton {
+    background: #e01936;
+    color: #fff;
+    padding: 7px 35px;
+    border: none;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 600px) {
+    .LoginInner {
+        width:100%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .EmailLogo{
+        margin-top: 5px;
+    }
+  }

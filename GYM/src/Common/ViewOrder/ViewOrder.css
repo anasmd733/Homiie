@@ -1,0 +1,39 @@
+
+.viewmoreContainer{
+    display: flex; 
+    justify-content: center;
+    position: relative;
+    width: 80%;
+    
+}
+.clodebtn{
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 5px;
+    background-color: rgb(226, 130, 20);
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+}
+.viewContainer{
+    position: fixed;
+    background-color: #fff;
+    padding: 10px;
+    color: black;
+    width: 60vh;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+@media screen and (max-width: 600px) {
+    .viewContainer{
+        width: 45vh;
+        margin-left: 11vh;
+        margin-top: 5vh;
+
+    }
+}

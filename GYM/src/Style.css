@@ -1,0 +1,39 @@
+* {
+  margin: 0px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.display {
+  display: flex;
+  width: 100%;
+}
+body {
+  background-color: #fff;
+}
+.CommonDashboard {
+  width: 30vh;
+}
+.AllContent {
+  margin-left: 10vh;
+  margin-right: 0.9vh;
+  width: 100%;
+  height: auto;
+  margin-top: 10vh;
+}
+.TwoContent {
+  width: 100%;
+}
+@media screen and (max-width: 974px) {
+  .AllContent{
+    margin-left: -5vh;
+  }
+}
+@media screen and (max-width: 600px) {
+  .CommonDashboard {
+    width: 0vh;
+    z-index: 1;
+  }
+  .AllContent {
+    margin-left: 0vh;
+    margin-right: 0vh;
+  }
+}

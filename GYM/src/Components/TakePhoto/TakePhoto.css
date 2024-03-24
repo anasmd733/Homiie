@@ -1,0 +1,33 @@
+.MainBtn{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    padding-top: 8px;
+
+}
+
+.PhotoBtn{
+    display: flex;
+    flex-direction: column;
+    height: 11vh;
+    justify-content: space-between;
+    width: 90%;
+    flex-wrap: wrap;
+}
+.takephotobtn ,.Capturebtn{
+    padding: 5px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+}
+
+.takephotobtn:hover{
+    background-color: #d8d8d8;
+}
+.Capturebtn:hover{
+    background-color: #d8d8d8;
+}
+.video{
+    position: absolute;
+    bottom: 45vh;
+}

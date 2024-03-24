@@ -1,0 +1,22 @@
+.ExpiredWhole {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .ExpiredContainer {
+    width: 100%;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 20px;
+    font-size: 14px;
+  }
+  
+  .ExpiredTitle {
+    padding: 20px;
+    cursor: pointer;
+  }
+
+  

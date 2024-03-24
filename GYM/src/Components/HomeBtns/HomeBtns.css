@@ -1,0 +1,121 @@
+.HomeButtons {
+  width: 99%;
+  background: #f3f3f3;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  height: 30vh;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  width: 100%;
+}
+
+.HomeBtnCon2,
+.HomeBtnCon {
+  width: 100%;
+
+  display: flex;
+  justify-content: space-around;
+}
+
+.Homeregister,
+.Home3days,
+.HomeEx,
+.Home3,
+.HomeExChange {
+  width: 30%;
+  height: 8vh;
+  background: #ffffff;
+  border-radius: 5px;
+  color: #ffffff;
+  font-size: 15px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.HomeEx {
+  color: #000;
+  border: none;
+  border-bottom: 3px solid #E01936;
+}
+
+.HomeEx:focus {
+  background-color: #E01936;
+  color: #fff;
+}
+
+.Homeregister {
+  background: #243040;
+  font-size: 17px;
+}
+
+.Home3 {
+  border: none;
+  background-color: #02b420;
+  color: #fff;
+}
+.HomeExChange{
+  border: none;
+  background-color: #E01936;
+  color: #fff;
+}
+
+.Home3days {
+  background: #fff;
+  color: #000;
+  border: none;
+  border-bottom: 3px solid #02b420;
+}
+
+@media screen and (max-width: 768px) {
+  .HomeButtons {
+    margin-top: 2vh;
+    width: 100%;
+  }
+  
+  .HomeBtnCon {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Homeregister,
+  .Home3days,
+  .HomeEx,
+  .Home3,
+  .HomeExChange
+   {
+    width: 48%;
+    margin-bottom: 10px;
+    height: 6vh;
+  }
+  .Homeregister{
+    width: 80%;
+  }
+  .HomeBtnCon2{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+}
+
+@media screen and (max-width: 414px) {
+  .Homeregister,
+  .Home3days,
+  .HomeEx,
+  .Home3,
+  .HomeExChange
+   {
+    width: 88%;
+    margin-bottom: 10px;
+    height: 7vh;
+  }
+  .HomeBtnCon2{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

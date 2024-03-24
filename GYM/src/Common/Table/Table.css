@@ -1,0 +1,63 @@
+.TableContainer {
+  width: 100%;
+  overflow: auto;
+  
+}
+
+.TableContainer::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
+.table-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  color: #616161;
+  border-radius: 10px;
+}
+
+.TableWhole {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.table-row {
+  display: flex;
+  width: 100%;
+}
+
+.table-cell,.table-celll {
+  flex: 1;
+  padding: 12px;
+  border: 1px solid #d8d7d7;
+  margin-top: 20px;
+  min-width: 78px;
+  display: flex;
+  flex-wrap: wrap;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+}
+.TableData{
+  margin-top: -15px;
+}
+
+.TableProfile{
+  margin-top: -10px;
+}
+
+.header {
+  font-weight: bold;
+}
+@media screen and (max-width: 985px) {
+  .TableContainer {
+    max-width: 540px;
+  }
+  .TableContainer {
+min-height: 30vh;
+  }
+}

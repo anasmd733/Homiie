@@ -1,1 +1,0 @@
-export const DropDownValuesArr = ['Customer Name','Riswan','Anaz','Naresh','Sabeer',]

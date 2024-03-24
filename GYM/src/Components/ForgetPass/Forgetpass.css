@@ -1,0 +1,143 @@
+.FrgtPassContainer {
+    background: url(../../asset/LoginBg.jpg);
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+  
+  .FrgtPassCon {
+    background: #fff;
+    height:  46vh;
+    width: 350px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    /* border: 1px solid; */
+  }
+  
+  .FrgtPassInner {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    width: 40%;
+
+  }
+  
+  .BlackProfile {
+    background-color: #000000;
+    width: 40px;
+    border-radius: 50%;
+    height: 40px;
+    margin-right: 20px;
+  }
+
+  .redtext{
+    width: 103%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-left: 10vh;
+  }
+
+  .ResertPass{
+    padding-top: 10px;
+    gap: 10px;
+    width: 100%;
+    display: flex;
+
+}
+
+.NewpassLine{
+    color: #e01936;
+    font-size: small;
+    text-align: center;
+    width: 66%;
+    padding: 6px;
+
+}
+
+.ResertContent{
+    padding: 10px;
+}
+
+.Forgetpass{
+    font-size: larger;
+}
+
+  
+  .LoginInput {
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+  }
+  
+  .LoginInput .inp {
+    width: 280px;
+    height: 35px;
+    background-color: #f4f4f4;
+    border: none;
+    outline: #999898;
+    border-radius: 5px;
+    padding-left: 40px;
+  }
+  
+  .emailLogo {
+    position: absolute;
+    left: 30px;
+    top: 9px;
+    font-size: 18px;
+    color: #999898;
+  }
+  
+  .LockLogo {
+    position: absolute;
+    left: 30px;
+    bottom: 5px;
+    font-size: 20px;
+    color: #999898;
+  }
+  
+  .FrgtPassHead {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .FrgtPassHead .Head {
+    border-left: 1px solid black;
+    width: 100px;
+    text-align: start;
+    padding: 10px 20px;
+  }
+  
+  .SaveButton {
+    background: #e01936;
+    color: #fff;
+    padding: 7px 35px;
+    border: none;
+    border-radius: 5px;
+  }
+
+  .SaveBtn{
+    padding: 10px;
+  }
+
+  
+  @media screen and (max-width: 600px) {
+    .FrgtPassInner{
+        margin-left:30%;
+    }
+
+    .redtext{
+      border: 1px solid;
+      /* margin-right: 10vh; */
+    }
+  }
